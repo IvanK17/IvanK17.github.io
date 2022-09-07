@@ -14,12 +14,17 @@
 }
 
 nav {
+    background-color: #017ac9;
     display: flex;
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 20px 0px;
     align-items: center;
     justify-content: space-between;
+}
+
+.elementsindex img{
+    padding-left: 20px;
 }
 
 nav ul li {
@@ -30,12 +35,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #015293;
+    color: #ffffff;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #017ac9;
+    color: #015293;
 }
 
 .details {
@@ -50,10 +55,13 @@ nav ul li a:hover {
 }
 
 span {
-    color: #017ac9;
+    color: #015293;
 }
 
-.detail p {
-    color: #017ac9;
+.details p {
+    color: #212121;
     line-height: 22px;
+    font-size: 25px;
+    width: 30%;
 }
+
