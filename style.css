@@ -105,9 +105,19 @@ span {
     width: 100%;
 }
 
+.text{
+    display: inline-block;
+}
+
 .text p{
-    margin-left: 50px;
-    margin-top: 110px;
+    margin-left: 70px;
+    margin-top: 170px;
     font-size: 30px;
     width: 30%;
+}
+
+.elementsaboutme img{
+    position: fixed;
+    top: 130px;
+    right: 70px;
 }
