@@ -17,6 +17,9 @@ body{
 }
 
 nav{
+    z-index: 1000;
+    top: 0;
+    position: fixed;
     height: 20px;
     background-color: #017ac9;
     display: flex;
@@ -25,10 +28,6 @@ nav{
     padding: 20px 0px;
     align-items: center;
     justify-content: space-between;
-}
-
-.header img {
-    padding-left: 20px;
 }
 
 nav ul li {
@@ -65,9 +64,15 @@ span {
 
 .details p {
     color: #212121;
-    line-height: 22px;
-    font-size: 25px;
+    line-height: 30px;
+    font-size: 30px;
     width: 30%;
+}
+
+.details p1{
+    color: #212121;
+    line-height: 22px;
+    font-size: 20px;
 }
 
 .myphoto{
@@ -93,4 +98,18 @@ span {
 
 .myphoto:hover .me{
     left: 45%;
+}
+
+.elementsaboutme{
+    position: relative;
+    width: 100%;
+}
+
+.text{
+    margin-left: 20px;
+    margin-top: 120px;
+}
+
+.elementsaboutme .text h{
+    font-size: 25px;
 }
