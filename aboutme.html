@@ -7,14 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My profile website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="icon" href="img/HZ logo.ico">
 </head>
 
 <body>
     <section aboutme>
         <header>
-            <nav>
-                <img src="img/HZ logo.png" alt="">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Course and Examination Regulations</a>
+                <a href="#">The Implementation Regulation</a>
+                <a href="#">Learn environment</a>
+                <a href="#">Teams environment</a>
+                <a href="">MyHZ with study progress</a>
+                <a href="https://github.com/HZ-HBO-ICT">Github</a>
+                </div>
+                <nav>
+                <img style="cursor:pointer" src="img/HZ logo.png" onclick="openNav()">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a class="active" href="aboutme.html">ABOUT ME</a></li>
