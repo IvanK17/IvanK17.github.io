@@ -94,12 +94,12 @@ nav ul li a:hover {
 }
 
 .details {
-    margin-left: 5%;
-    margin-top: 15%;
+    margin-left: 10%;
+    margin-top: 12%;
 }
 
 .details h1 {
-    font-size: 50px;
+    font-size: 70px;
     color: #212121;
     margin-bottom: 20px;
 }
@@ -110,15 +110,15 @@ nav ul li a:hover {
 
 .details p {
     color: #212121;
-    line-height: 30px;
-    font-size: 30px;
-    width: 30%;
+    line-height: 55px;
+    font-size: 50px;
+    width: 40%;
 }
 
 .details p1 {
     color: #212121;
-    line-height: 22px;
-    font-size: 20px;
+    line-height: 27px;
+    font-size: 25px;
 }
 
 .myphoto {
@@ -126,24 +126,24 @@ nav ul li a:hover {
     height: 80%;
     position: absolute;
     bottom: 0;
-    right: 100px;
+    right: 70px;
 }
 
 .myphoto img {
     height: 100%;
     position: absolute;
-    left: 15%;
+    left: 50%;
     bottom: 0;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
 
 .myphoto:hover .shape {
-    bottom: 30px;
+    bottom: 40px;
 }
 
 .myphoto:hover .me {
-    left: 20%;
+    left: 45%;
 }
 
 .elementsaboutme {
