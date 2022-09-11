@@ -10,12 +10,6 @@ body {
     background: #eff4fd;
 }
 
-.homepage {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-}
-
 nav {
     z-index: 1;
     top: 0;
@@ -61,7 +55,7 @@ nav ul li a:hover {
 .sidenav{
     height: 86%;
     width: 0;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 40px;
     left: 0;
@@ -94,12 +88,12 @@ nav ul li a:hover {
 }
 
 .details {
-    margin-left: 10%;
-    margin-top: 12%;
+    margin-left: 4%;
+    margin-top: 7%;
 }
 
 .details h1 {
-    font-size: 70px;
+    font-size: 50px;
     color: #212121;
     margin-bottom: 20px;
 }
@@ -110,15 +104,9 @@ nav ul li a:hover {
 
 .details p {
     color: #212121;
-    line-height: 55px;
-    font-size: 50px;
-    width: 40%;
-}
-
-.details p1 {
-    color: #212121;
-    line-height: 27px;
-    font-size: 25px;
+    line-height: 35px;
+    font-size: 30px;
+    width: 30%;
 }
 
 .myphoto {
@@ -126,7 +114,7 @@ nav ul li a:hover {
     height: 80%;
     position: absolute;
     bottom: 0;
-    right: 70px;
+    right: 0px;
 }
 
 .myphoto img {
@@ -151,21 +139,47 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.text {
+.elementsaboutme .text {
     display: inline-block;
 }
 
-.text p {
-    margin-left: 70px;
-    margin-top: 170px;
+.elementsaboutme .text p {
+    margin-left: 130px;
+    margin-top: 100px;
     font-size: 30px;
+    line-height: 35px;
     width: 30%;
 }
 
 .elementsaboutme img {
-    position: fixed;
-    top: 130px;
-    right: 70px;
+    position: absolute;
+    top: 80px;
+    right: 150px;
     border-radius: 25px;
     box-shadow: 10px 10px 5px #ccc;
+}
+
+.elementsaboutme .why h1{
+    position: absolute  ;
+    font-size: 40px;
+    font-weight: bold;
+    top: 130%;
+    left: 33%;
+    text-align: center;
+}
+
+.elementsaboutme .why p{
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+    top: 150%;
+    left: 10%;
+    padding-bottom: 100px;
+    line-height: 35px;
+}
+
+.elementsaboutme .why p span{
+    color: #015293;
+    font-weight: bold;
 }
