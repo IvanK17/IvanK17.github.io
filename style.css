@@ -203,8 +203,20 @@ th{
 table{
     background-color: #017ac9;
     position: relative;
-    top: 110px;
+    top: 200px;
     left: 10%;
     font-size: 20px;
-    margin-bottom: 180px;
+    margin-bottom: 270px;
+}
+
+.nbsa{
+    color: #212121;
+    font-size: 35px;
+    position: absolute;
+    top: 80px;
+    left: 580px;
+}
+
+.nbsa p{
+    padding-top: 20px;
 }
