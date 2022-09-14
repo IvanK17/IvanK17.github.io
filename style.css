@@ -52,7 +52,7 @@ nav ul li a:hover {
 }
 
 .sidenav{
-    height: 86%;
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -203,20 +203,132 @@ th{
 table{
     background-color: #017ac9;
     position: relative;
-    top: 200px;
+    top: 230px;
     left: 10%;
     font-size: 20px;
-    margin-bottom: 270px;
+    margin-bottom: 300px;
 }
 
 .nbsa{
-    color: #212121;
+    border: 3px solid #015293;
+    border-radius: 20px;
+    padding: 15px 15px 15px 15px;
+    background-color: #017ac9;
+    color: #ffffff;
+    accent-color: #015293;
     font-size: 35px;
     position: absolute;
     top: 80px;
-    left: 580px;
+    left: 560px;
 }
 
 .nbsa p{
+    font-size: 25px;
+    position: relative;
     padding-top: 20px;
+    left: 60px;
 }
+
+.blog-page {
+    position: relative;
+    top: 110px;
+    left: 70px;
+    width: 90%;
+    margin: 0;
+    padding: 5px;
+    background-color: #017ac9;
+  }
+  
+  .blog-page .blog {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .blog-page h1{
+    color: #ffffff;
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .blog {
+    background: #ffffff;
+  }
+  
+  .blog > h2, p {
+    color: #212121;
+    margin: 4px;
+    font-size: 20px;
+  }
+
+  .blog-company {
+    position: relative;
+    top: 150px;
+    left: 70px;
+    width: 90%;
+    margin-bottom: 15%;
+    padding: 5px;
+    background-color: #017ac9;
+  }
+  
+  .blog-company .company {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .blog-company h1{
+    color: #ffffff;
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .company {
+    background: #ffffff;
+  }
+  
+  .company > h2, p {
+    color: #212121;
+    margin: 4px;
+    font-size: 20px;
+  }
+
+  .elementsfaq{
+    position: relative;
+    top: 110px;
+    left: 50px;
+    width: 93%;
+    margin-bottom: 180px;
+  }
+  
+  .elementsfaq .dropfaq {
+    background-color: #017ac9;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 20px;
+  }
+  
+  .elementsfaq .active, .dropfaq:hover {
+    background-color: #015293;
+  }
+  
+   .answers {
+    padding: 0 18px;
+    border-bottom: 2px solid #015293;
+    border-collapse: collapse;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #0664b0;
+  }
+
+  .answers p{
+    color: #ffffff;
+    padding: 25px;
+  }

@@ -38,7 +38,57 @@
                 </ul>
             </nav>
         </header>
+        <div class="elementsfaq">
+          <button class="dropfaq">1. How can you print a document from your laptop at HZ?</button>
+          <div class="answers">
+            <p>It is very simple. There are printers on every floor of the HZ building. To print something you just plug in your laptop and print whatever you need.</p>
+          </div>
+          <button class="dropfaq">2. How can you scan a document a send it to your laptop at HZ?</button>
+          <div class="answers">
+            <p></p>
+          </div>
+          <button class="dropfaq">3. How can I buy something (like when I sign up for the IT introduction event at Friday 16/09)
+            on the HZ web shop?</button>
+          <div class="answers">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.</p>
+          </div>
+          <button class="dropfaq">4. Where can I find the latest instructions on what to do when you are sick / show symptoms of
+            COVID?</button>
+          <div class="answers">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.</p>
+          </div>
+          <button class="dropfaq">5. How can you book a project space in one of the wings?</button>
+          <div class="answers">
+            <p>You go to <a href="https://hzuniversity.topdesk.net/tas/public" target="_blank">Self Service Portal</a>, then <a href="https://hzuniversity.topdesk.net/tas/public/ssp/52a63378-addd-4b21-b808-571200fd8d0c" target="_blank">Make a reservation</a> and you are ready to go.</p>
+          </div>
+          <button class="dropfaq">6. What are the instructions if you want to park your car at the HZ parking lot?</button>
+          <div class="answers">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.</p>
+          </div>
+        </div>
         
+        <script>
+          var coll = document.getElementsByClassName("dropfaq");
+          var i;
+
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+              } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+              }
+            });
+          }
+        </script>
     </section>
 </body>
 
