@@ -313,6 +313,11 @@ table{
     line-height: 35px;
     padding: 20px;
   }
+
+  .answers a{
+    color: #ffffff;
+    font-weight: bold;
+  }
   
   .elementsfaq .active, .dropfaq:hover {
     background-color: #015293;
