@@ -10,6 +10,11 @@ body {
     background: #eff4fd;
 }
 
+.homepage body{
+    background-image: url("img/it.jpg");
+}
+
+
 nav {
     z-index: 1;
     top: 0;
@@ -92,9 +97,9 @@ nav ul li a:hover {
 }
 
 .details h1 {
-    font-size: 50px;
+    font-size: 65px;
     color: #212121;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .details span {
@@ -103,26 +108,32 @@ nav ul li a:hover {
 
 .details p {
     color: #212121;
-    line-height: 35px;
-    font-size: 30px;
-    width: 30%;
+    line-height: 50px;
+    font-size: 45px;
+    width: 45%;
 }
 
 .myphoto {
     width: 45%;
-    height: 80%;
+    height: 90%;
     position: absolute;
     bottom: 0;
     right: 0px;
 }
 
-.myphoto img {
+.myphoto .shape, .me {
     height: 100%;
     position: absolute;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
+}
+
+.myphoto .line{
+    position: absolute;
+    right: -0px;
+    top: 140px;
 }
 
 .myphoto:hover .shape {
@@ -136,6 +147,47 @@ nav ul li a:hover {
 .elementsaboutme {
     position: relative;
     width: 100%;
+}
+
+.about-it img{
+    position: absolute;
+    margin-top: 23.2%;
+    left: 0px;
+    width: 50%;
+    margin-bottom: 0;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.about-it p{
+    position: absolute;
+    font-size: 33px;
+    line-height: 44px;
+    color: #212121;
+    width: 41%;
+    margin-top: 24.5%;
+    margin-left: 55%;
+}
+
+.about-hz img{
+    position: absolute;
+    top: 159.8%;
+    left: 50%;
+    width: 50%;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.about-hz{
+    padding-bottom: 85%;
+}
+
+.about-hz p{
+    position: absolute;
+    top: 165%;
+    left: 30px;
+    width: 48%;
+    font-size: 33px;
+    line-height: 44px;
+    color: #212121;
 }
 
 .elementsaboutme .text {
@@ -258,6 +310,13 @@ table{
     color: #212121;
     margin: 4px;
     font-size: 20px;
+  }
+
+  .blog-company h3{
+    color: #ffffff;
+    margin: 15px;
+    padding-bottom: 20px;
+    font-size: 25px;
   }
 
   .blog-company {
