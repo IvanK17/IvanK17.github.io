@@ -12,7 +12,7 @@ body {
 
 /* Top navigation bar */
 nav {
-    z-index: 1;
+    z-index: 3;
     top: 0;
     position: fixed;
     background-color: #017ac9;
@@ -57,7 +57,7 @@ nav ul li a:hover {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 40px;
     left: 0;
     background-color: #015293;
@@ -137,6 +137,7 @@ nav ul li a:hover {
     left: 45%;
 }
 
+
 /* Line crossing display */
 .line img{
     position: absolute;
@@ -144,6 +145,46 @@ nav ul li a:hover {
     width: 100%;
     left: 0;
     top: 98%;
+}
+
+/* Social buttons */
+.socials ul {
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.socials ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.socials ul li .fa {
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+
+.socials ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #017ac9;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.socials ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.socials ul li a:hover {
+    background-color: #015293;
 }
 
 /* Homepage 2nd text and images */
