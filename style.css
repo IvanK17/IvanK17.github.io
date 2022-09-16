@@ -10,11 +10,7 @@ body {
     background: #eff4fd;
 }
 
-.homepage body{
-    background-image: url("img/it.jpg");
-}
-
-
+/* Top navigation bar */
 nav {
     z-index: 1;
     top: 0;
@@ -56,6 +52,7 @@ nav ul li a:hover {
     background-color: #015293;
 }
 
+/* Side navigation menu */
 .sidenav{
     height: 100%;
     width: 0;
@@ -91,6 +88,7 @@ nav ul li a:hover {
     margin-left: 50px;
 }
 
+/* Homepage text and images */
 .details {
     margin-left: 4%;
     margin-top: 7%;
@@ -113,6 +111,7 @@ nav ul li a:hover {
     width: 45%;
 }
 
+/* Homepage photo animation */
 .myphoto {
     width: 45%;
     height: 90%;
@@ -130,12 +129,6 @@ nav ul li a:hover {
     transition: bottom 1s, left 1s;
 }
 
-.myphoto .line{
-    position: absolute;
-    right: -0px;
-    top: 140px;
-}
-
 .myphoto:hover .shape {
     bottom: 40px;
 }
@@ -144,11 +137,16 @@ nav ul li a:hover {
     left: 45%;
 }
 
-.elementsaboutme {
-    position: relative;
+/* Line crossing display */
+.line img{
+    position: absolute;
+    z-index: 1;
     width: 100%;
+    left: 0;
+    top: 98%;
 }
 
+/* Homepage 2nd text and images */
 .about-it img{
     position: absolute;
     margin-top: 23.2%;
@@ -173,11 +171,7 @@ nav ul li a:hover {
     top: 159.8%;
     left: 50%;
     width: 50%;
-    box-shadow: 10px 10px 5px #ccc;
-}
-
-.about-hz{
-    padding-bottom: 85%;
+    box-shadow: -10px -10px 5px #ccc;
 }
 
 .about-hz p{
@@ -188,6 +182,12 @@ nav ul li a:hover {
     font-size: 33px;
     line-height: 44px;
     color: #212121;
+}
+
+/* About me page text and images */
+.elementsaboutme {
+    position: relative;
+    width: 100%;
 }
 
 .elementsaboutme .text {
@@ -235,6 +235,7 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
+/* Dashboard table */
 table, th, td {
     border: 1px solid;
     border-color: #eff4fd;
@@ -261,6 +262,7 @@ table{
     margin-bottom: 300px;
 }
 
+/* Dashboard progress bar */
 .nbsa{
     border: 3px solid #015293;
     border-radius: 20px;
@@ -281,6 +283,7 @@ table{
     left: 60px;
 }
 
+/* Blog page - about me */
 .blog-page {
     position: relative;
     top: 110px;
@@ -312,6 +315,7 @@ table{
     font-size: 20px;
   }
 
+  /* Blog page - about 3 companies */
   .blog-company h3{
     color: #ffffff;
     margin: 15px;
@@ -350,6 +354,7 @@ table{
     font-size: 20px;
   }
 
+  /* Faq page content */
   .elementsfaq{
     position: relative;
     top: 110px;
