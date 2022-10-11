@@ -53,7 +53,7 @@ nav ul li a:hover {
 }
 
 /* Side navigation menu */
-.sidenav{
+.sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -67,7 +67,7 @@ nav ul li a:hover {
     padding-top: 60px;
 }
 
-.sidenav a{
+.sidenav a {
     padding: 28px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -76,11 +76,11 @@ nav ul li a:hover {
     transition: 0.3s;
 }
 
-.sidenav a:hover{
+.sidenav a:hover {
     color: #017ac9;
 }
 
-.sidenav .closebtn{
+.sidenav .closebtn {
     position: absolute;
     top: -30px;
     right: 10px;
@@ -120,7 +120,8 @@ nav ul li a:hover {
     right: 0px;
 }
 
-.myphoto .shape, .me {
+.myphoto .shape,
+.me {
     height: 100%;
     position: absolute;
     left: 50%;
@@ -139,7 +140,7 @@ nav ul li a:hover {
 
 
 /* Line crossing display */
-.line img{
+.line img {
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -157,10 +158,12 @@ nav ul li a:hover {
     margin: 0;
     display: flex;
 }
+
 .socials ul li {
     list-style: none;
     margin: 0 10px;
 }
+
 .socials ul li .fa {
     color: #ffffff;
     font-size: 25px;
@@ -177,18 +180,20 @@ nav ul li a:hover {
     background-color: #017ac9;
     text-align: center;
     transition: 0.5s;
-    transform: translate(0,0px);
+    transform: translate(0, 0px);
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
 }
+
 .socials ul li a:hover {
     transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
+
 .socials ul li a:hover {
     background-color: #015293;
 }
 
 /* Homepage 2nd text and images */
-.about-it img{
+.about-it img {
     position: absolute;
     margin-top: 23.2%;
     left: 0px;
@@ -197,7 +202,7 @@ nav ul li a:hover {
     box-shadow: 10px 10px 5px #ccc;
 }
 
-.about-it p{
+.about-it p {
     position: absolute;
     font-size: 33px;
     line-height: 44px;
@@ -207,7 +212,7 @@ nav ul li a:hover {
     margin-left: 55%;
 }
 
-.about-hz img{
+.about-hz img {
     position: absolute;
     top: 159.8%;
     left: 50%;
@@ -215,7 +220,7 @@ nav ul li a:hover {
     box-shadow: -10px -10px 5px #ccc;
 }
 
-.about-hz p{
+.about-hz p {
     position: absolute;
     top: 165%;
     left: 30px;
@@ -251,8 +256,8 @@ nav ul li a:hover {
     box-shadow: 10px 10px 5px #ccc;
 }
 
-.elementsaboutme .why h1{
-    position: absolute  ;
+.elementsaboutme .why h1 {
+    position: absolute;
     font-size: 40px;
     font-weight: bold;
     top: 130%;
@@ -260,7 +265,7 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.elementsaboutme .why p{
+.elementsaboutme .why p {
     position: absolute;
     font-size: 30px;
     text-align: center;
@@ -271,30 +276,34 @@ nav ul li a:hover {
     line-height: 35px;
 }
 
-.elementsaboutme .why p span{
+.elementsaboutme .why p span {
     color: #015293;
     font-weight: bold;
 }
 
 /* Dashboard table */
-table, th, td {
+table,
+th,
+td {
     border: 1px solid;
     border-color: #eff4fd;
     border-collapse: collapse;
-  }
+}
 
-table, th, td{
+table,
+th,
+td {
     color: #ffffff;
     padding: 5px;
     text-align: left;
     vertical-align: top;
 }
 
-th{
+th {
     background-color: #015293;
 }
 
-table{
+table {
     overflow-x: auto;
     background-color: #017ac9;
     position: relative;
@@ -304,12 +313,12 @@ table{
     margin-bottom: 300px;
 }
 
-tbody:nth-child(odd){
+tbody:nth-child(odd) {
     background: #015293;
 }
 
 /* Dashboard progress bar */
-.nbsa{
+.nbsa {
     border: 3px solid #015293;
     border-radius: 20px;
     padding: 15px 15px 15px 15px;
@@ -322,7 +331,7 @@ tbody:nth-child(odd){
     left: 560px;
 }
 
-.nbsa p{
+.nbsa p {
     color: #ffffff;
     font-size: 25px;
     position: relative;
@@ -330,7 +339,7 @@ tbody:nth-child(odd){
     left: 60px;
 }
 
-.nbsa span{
+.nbsa span {
     color: #212121;
     font-weight: bold;
 }
@@ -344,39 +353,40 @@ tbody:nth-child(odd){
     margin: 0;
     padding: 5px;
     background-color: #017ac9;
-  }
-  
-  .blog-page .blog {
+}
+
+.blog-page .blog {
     margin: 10px;
     padding: 5px;
-  }
+}
 
-  .blog-page h1{
+.blog-page h1 {
     color: #ffffff;
     margin: 10px;
     padding: 5px;
-  }
-  
-  .blog {
+}
+
+.blog {
     background: #eff4fd;
-  }
-  
-  .blog > h2, p {
+}
+
+.blog>h2,
+p {
     color: #212121;
     margin: 4px;
     font-size: 20px;
-  }
+}
 
-  /* Blog page - about 3 companies */
-  .blog-company h3{
+/* Blog page - about 3 companies */
+.blog-company h3 {
     color: #ffffff;
     margin: 15px;
     padding-bottom: 20px;
     font-size: 25px;
     border-bottom: #015293 solid 2px;
-  }
+}
 
-  .blog-company {
+.blog-company {
     position: relative;
     top: 150px;
     left: 70px;
@@ -384,39 +394,40 @@ tbody:nth-child(odd){
     margin-bottom: 15%;
     padding: 5px;
     background-color: #017ac9;
-  }
-  
-  .blog-company .company {
+}
+
+.blog-company .company {
     margin: 10px;
     padding: 5px;
-  }
+}
 
-  .blog-company h1{
+.blog-company h1 {
     color: #ffffff;
     margin: 10px;
     padding: 5px;
-  }
-  
-  .company {
+}
+
+.company {
     background: #eff4fd;
-  }
-  
-  .company > h2, p {
+}
+
+.company>h2,
+p {
     color: #212121;
     margin: 4px;
     font-size: 20px;
-  }
+}
 
-  /* Faq page content */
-  .elementsfaq{
+/* Faq page content */
+.elementsfaq {
     position: relative;
     top: 110px;
     left: 50px;
     width: 93%;
     margin-bottom: 180px;
-  }
-  
-  .elementsfaq .dropfaq {
+}
+
+.elementsfaq .dropfaq {
     background-color: #017ac9;
     color: #ffffff;
     cursor: pointer;
@@ -429,18 +440,19 @@ tbody:nth-child(odd){
     font-weight: bold;
     line-height: 35px;
     padding: 20px;
-  }
+}
 
-  .answers a{
+.answers a {
     color: #ffffff;
     font-weight: bold;
-  }
-  
-  .elementsfaq .active, .dropfaq:hover {
+}
+
+.elementsfaq .active,
+.dropfaq:hover {
     background-color: #015293;
-  }
-  
-   .answers {
+}
+
+.answers {
     padding: 0 18px;
     border-bottom: 2px solid #015293;
     border-collapse: collapse;
@@ -448,9 +460,9 @@ tbody:nth-child(odd){
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #0664b0;
-  }
+}
 
-  .answers p{
+.answers p {
     color: #ffffff;
     padding: 25px;
-  }
+}
