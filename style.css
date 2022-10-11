@@ -295,12 +295,17 @@ th{
 }
 
 table{
+    overflow-x: auto;
     background-color: #017ac9;
     position: relative;
     top: 230px;
     left: 10%;
     font-size: 20px;
     margin-bottom: 300px;
+}
+
+tbody:nth-child(odd){
+    background: #015293;
 }
 
 /* Dashboard progress bar */
