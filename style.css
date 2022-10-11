@@ -318,10 +318,16 @@ table{
 }
 
 .nbsa p{
+    color: #ffffff;
     font-size: 25px;
     position: relative;
     padding-top: 20px;
     left: 60px;
+}
+
+.nbsa span{
+    color: #015293;
+    font-weight: bold;
 }
 
 /* Blog page - about me */
@@ -362,6 +368,7 @@ table{
     margin: 15px;
     padding-bottom: 20px;
     font-size: 25px;
+    border-bottom: #015293 solid 2px;
   }
 
   .blog-company {
