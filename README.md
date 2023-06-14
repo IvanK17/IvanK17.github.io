@@ -1,4 +1,4 @@
-# This is my portfolio website! -> [Check it out](https://ivank17.github.io/)
+# This is my portfolio website!
 
 ## Author
 - Ivan Karev [IvanK17](https://github.com/IvanK17)
