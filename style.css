@@ -191,8 +191,8 @@ span {
 
 .dashboard {
     display: flex;
-    gap: 3rem;
-    flex-direction: row;
+    gap: 2rem;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -236,20 +236,19 @@ tbody:nth-child(odd) {
     background-color: var(--main-color);
     color: #ffffff;
     accent-color: #015293;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .nbsa p {
     color: #ffffff;
     font-size: 20px;
     position: relative;
-    padding-top: 20px;
     text-align: center;
 }
 
 .nbsa span {
     color: #015293;
-    font-size: 30px;
+    font-size:25px;
     text-shadow:
    -0.5px -0.5px 0 #000,  
     0.5px -0.5px 0 #000,
