@@ -64,6 +64,23 @@ const typed = new Typed('.typed-text', {
     loop: true
 });
 
+// about me read more function
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("read-more-btn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
 // faq page dropdown
 var coll = document.getElementsByClassName("question");
 var i;

@@ -187,6 +187,27 @@ span {
     margin: 2rem 0 3rem;
 }
 
+.about-content #dots, #more {
+    color: var(--text-color);
+}
+
+.about-content #read-more-btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--text-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.about-content #more {
+    display: none;
+}
+
 /* Dashboard page css */
 
 .dashboard {
