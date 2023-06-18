@@ -152,6 +152,7 @@ span {
 
 .btn:hover {
     box-shadow: none;
+    cursor: pointer;
 }
 
 /* About page css */
@@ -438,67 +439,33 @@ tbody:nth-child(odd) {
     color: var(--second-bg-color);
 }
 
-/* New blog css */
-
-.new-blog {
-    background: var(--bg-color);
-    color: var(--text-color);
-    margin: 0 auto;
-    display: block;
-    flex-direction: column;
+/* Blog page css */
+.blog-page {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 10rem;
+    background: var(--main-bg-color);
 }
 
-.new-blog .heading {
-    margin-bottom: 4rem;
-    align-items: center;
+.blog-img img {
+    width: 40vw;
+    border-radius: 5rem;
 }
 
-.new-blog .field {
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 2rem 0;
+.heading {
+    text-align: center;
+    font-size: 5rem;
 }
 
-.label-blog {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.input[type="text"] {
-    width: 100%;
-    padding: 1rem 2rem;
-    font-size: 2rem;
-    border: none;
-    border-radius: 1rem;
-    outline: none;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
-    resize: none;
-}
-
-.input[id=body] {
-    height: 200px;
-}
-
-/* Blog show css */
-
-.show-blog {
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--bg-color);
-}
-
-.show-blog p {
-    width: 100%;
+.blog-content h2 {
     text-align: left;
-    padding: 1rem 2rem;
-    font-size: 2.2rem;
-    white-space: pre-wrap;
-    margin-top: 3rem;
+    line-height: 1.2;
+}
+
+.blog-content p {
+    font-size: 2.6rem;
+    margin: 2rem 0 3rem;
 }
 
 /* Footer css */
